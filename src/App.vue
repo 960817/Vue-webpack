@@ -1,10 +1,12 @@
 <template>
-	<h1>{{ msg }}</h1>
-	<Hello />
+  <h1>
+    {{ msg }}
+  </h1>
+  <Hello />
 </template>
 
 <script>
-import Hello from '~/components/Hello'
+import Hello from '~/components/Hello';
 
 export default {
 	components: {
@@ -12,14 +14,8 @@ export default {
 	},
 	data() {
 		return {
-			msg : 'Hello Webpack..?!'
-		}
+			msg : 'Hello Vue!'
+		};
 	}
-}
+};
 </script>
-
-<style scoped>
-h1 {
-	color: red;
-}
-</style>
